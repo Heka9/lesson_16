@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			Homework #16
+		</header>
+		<main class="main">
+			<div class="main__block block">
+				<div class="block__container">
+					<div class="block__form form">
+						<div class="form__title">Make an appointment</div>
+						<form action="#" class="form__items">
+							<div class="form__line">
+								<div class="form__name item">
+									<input autocomplete="off" placeholder="Name" name="form-name" type="text"
+										class="item__input">
+								</div>
+								<div class="form__email item">
+									<input autocomplete="off" placeholder="Email" name="form-email" type="email"
+										class="item__input">
+								</div>
+							</div>
+							<div class="form__line">
+								<div class="form__tel item">
+									<input autocomplete="off" name="form-tel" placeholder="Phone Number" type="tel"
+										class="item__input">
+								</div>
+								<div class="form__select item">
+									<input autocomplete="off" placeholder="Select Service" name="form-select" type="text"
+										class="item__input">
+								</div>
+							</div>
+							<textarea autocomplete="off" placeholder="Tell us about your puppers include his/her name"
+								class="form__textarea" name="form-textarea"></textarea>
+							<button class="form__button" type="submit">Make an Appointment
+							</button>
+						</form>
+					</div>
+					<div class="block__content">
+						<h2 class="block__title">Maxime placeat facere possimus omnis </h2>
+						<div class="block__value">5,700+</div>
+						<div class="block__text">customers served</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__summary summary">
+				<div class="summary__container">
+					<div class="summary__content">
+						<h2 class="summary__title">Summary</h2>
+						<div class="summary__sub-title">Estimate Shipping and Tax</div>
+						<p class="summary__text">Enter your destination to get a shipping estimate.</p>
+						<form class="summary__form form-summary">
+							<div class="form-summary__block some-block">
+								<div class="some-block__title title">Country</div>
+								<select name="select" class="some-block__select">
+									<option value="1" class="some-block__option">Australia</option>
+									<option value="2" class="some-block__option">Ukraine</option>
+									<option value="3" class="some-block__option">Russia</option>
+								</select>
+							</div>
+							<div class="form-summary__box box">
+								<div class="box__title title">State/Province</div>
+								<div class="box__item">
+									<input autocomplete="off" name="state" type="text" class="box__input">
+								</div>
+							</div>
+							<div class="form-summary__box box">
+								<div class="box__title title">Zip/Postal Code</div>
+								<div class="box__item">
+									<input autocomplete="off" name="postal-code" type="number" class="box__input">
+								</div>
+							</div>
+							<div class="form-summary__radiobuttons radiobutton">
+								<div class="radiobutton__box">
+									<div class="radiobutton__title title">Standard Rate</div>
+									<div class="radiobutton__item">
+										<input id="radiobutton-1" type="radio" class="radiobutton__input"
+											name="delivery">
+										<label for="radiobutton-1" class="radiobutton__label">Price may vary depending on the
+											item/destination. Shop Staff will contact you. $21.00</label>
+									</div>
+								</div>
+								<div class="radiobutton__box">
+									<div class="radiobutton__title title">Pickup from store</div>
+									<div class="radiobutton__item">
+										<input id="radiobutton-2" type="radio" class="radiobutton__input"
+											name="delivery">
+										<label for="radiobutton-2" class="radiobutton__label">1234 Street Adress City Address,
+											1234 $0.00 </label>
+									</div>
+								</div>
+							</div>
+							<div class="form-summary__text">Apply Discount Code</div>
+							<div class="form-summary__box box">
+								<div class="box__title title">Enter discount code</div>
+								<div class="box__item">
+									<input name="state" autocomplete="off" type="text" class="box__input">
+								</div>
+							</div>
+							<div class="form-summary__button">
+								<button type="submit" class="form-summary__item">Apply Discount</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="main__registered registered">
+				<div class="registered__container">
+					<div class="registered__content">
+						<h2 class="registered__title">Registered Customers</h2>
+						<div class="registered__text">If you have an account, sign in with your email address.</div>
+						<form action="#" class="registered__form form-registered">
+							<div class="form-registered__item">
+								<div class="form-registered__title">Email <span class="form-registered__red">*</span>
+								</div>
+								<input required name="username" autocomplete="off" placeholder="Your Name" type="text" class="form-registered__input" value=""></div>
+							<div class="form-registered__item form-registered__item-margin">
+								<div class="form-registered__title">Password <span class="form-registered__red">*</span>
+								</div>
+								<input required name="username" autocomplete="off" placeholder="Your Password" type="password" class="form-registered__input">
+							</div>
+							<div class="form-registered__button">
+								<div class="form-registered__btn">
+									<button type="submit" class="form-registered__submit">Sign In</button>
+								</div>
+								<div class="form-registered__btn form-registered__btn_bg-color">
+									<button type="button" class="form-registered__forgot">Forgot Your Password?</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			Footer
+		</footer>
+	</div>
+</body>
+
+</html>
